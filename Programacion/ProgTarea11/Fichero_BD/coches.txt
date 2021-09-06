@@ -1,0 +1,4 @@
+1111ABC Opel Corsa Blanco 1999 1500
+2222JDC Ford Focus Verde 2005 8000
+3333HHH Renault Laguna Azul 2000 5000
+4444LLL Seat Ibiza Blanco 2014 18000
