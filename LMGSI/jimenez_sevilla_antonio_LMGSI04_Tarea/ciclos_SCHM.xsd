@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <!--Documentamos el Schema-->
+    <xs:annotation>
+        <xs:documentation>
+            <titulo>Vocabulario XML utilizando XML Schema</titulo>
+            <fecha>Abril 2021</fecha>
+            <autor>Juan Diego</autor>
+            <curso>2020-2021</curso>
+        </xs:documentation>
+    </xs:annotation>
+    
+    <!-- Se define el elemento raíz -->
+    <xs:element name="Ciclos">
+      <xs:complexType>
+            <xs:sequence>
+                <!-- Se hace referencia al elemento Ciclo que se define a posteriori -->
+                <xs:element ref="Ciclo" minOccurs="1" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+    
+    <!-- Se define el elemento Ciclo -->
+    <xs:element name="Ciclo">
+       <xs:complexType>
+           <xs:sequence>
+               <xs:element name="NombreCiclo" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+               <xs:element name="FamProf" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+               <xs:element name="FechaCurric" type="xs:date" minOccurs="1" maxOccurs="1"></xs:element>
+               <xs:element name="CentroDistancia" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+               <!-- Se hace referencia al elemento Modulos que se define a posteriori -->
+               <xs:element ref="Modulos" minOccurs="1" maxOccurs="1" ></xs:element>
+           </xs:sequence>
+           <!--Se definen los atributos. -->
+           <xs:attribute name="CodigoCl" type="TipoCodCl" use="required"/>
+           <xs:attribute name="Tipo" type="TipoCl" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <!-- Se define el elemento Modulos. -->
+    <xs:element name="Modulos">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Se hace referencia al elemento Modulo que se define a posteriori -->
+                <xs:element ref="Modulo" minOccurs="1" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>    
+    
+    <!-- Se define el elemento Modulo. -->
+    <xs:element name="Modulo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="NombreMod" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+                <xs:element name="HorasMod" type="TipoHorasT" minOccurs="1" maxOccurs="1"></xs:element>
+                <xs:element name="HorasModSem" type="TipoHorasS" minOccurs="1" maxOccurs="1"></xs:element>
+                <xs:element name="Curso" type="TipoCurso" minOccurs="1" maxOccurs="1"></xs:element>
+            </xs:sequence>  
+            
+            <!--Se definen el atributo. -->
+            <xs:attribute name="CodigoMod" type="TipoCodMod" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <!-- Se definen los tipos de datos simples de los elementos y atributos anteriores -->
+    <xs:simpleType name="TipoCo dCl">      <!-- Tipo del código del Ciclo -->
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="CF[0-9]{3}C"></xs:pattern> <!-- CF + 3 dígitos numéricos + C -->
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="TipoCl">      <!-- Tipo del Ciclo: FPB o GM o GS-->
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="FPB"/>
+            <xs:enumeration value="GM"/>
+            <xs:enumeration value="GS"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="TipoCodMod">      <!-- Tipo de Código del Módulo. -->
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="CM[0-9]{4}"></xs:pattern>   <!-- CM + 4 dígitos numéricos -->
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="TipoHorasT">      <!-- Tipo de Horas Totales del Módulo: entre 1 y 999 -->
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minInclusive value="1"></xs:minInclusive> <!-- valor min 1 -->
+            <xs:maxInclusive value="999"></xs:maxInclusive> <!-- valor max 999 -->
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="TipoHorasS">      <!-- Tipo de Horas Semanales del Módulo: entre 1 y 15 -->
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minInclusive value="1"></xs:minInclusive> <!-- valor min 1 -->
+            <xs:maxInclusive value="15"></xs:maxInclusive> <!-- valor max 15 -->
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="TipoCurso">      <!-- Tipo de Curso: valores 1 o 2 -->
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minInclusive value="1"></xs:minInclusive> <!-- valor min 1 -->
+            <xs:maxInclusive value="2"></xs:maxInclusive> <!-- valor max 2 -->
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>

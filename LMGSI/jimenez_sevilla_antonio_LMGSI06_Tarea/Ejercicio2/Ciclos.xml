@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ciclos>
+    <Ciclo>
+        <ciclo_no>C010</ciclo_no>
+        <nombre>Desarrollo de aplicaciones web</nombre>
+        <grado>GS</grado>
+    </Ciclo>
+    <Ciclo>
+        <ciclo_no>C020</ciclo_no>
+        <nombre>Desarrollo de aplicaciones multiplataforma</nombre>
+        <grado>GS</grado>
+    </Ciclo>
+    <Ciclo>
+        <ciclo_no>C030</ciclo_no>
+        <nombre>Sistemas microinformaticos y redes</nombre>
+        <grado>GM</grado>
+    </Ciclo>
+    <Ciclo>
+        <ciclo_no>C040</ciclo_no>
+        <nombre>Administracion y finanzas</nombre>
+        <grado>GS</grado>
+    </Ciclo>
+</Ciclos>

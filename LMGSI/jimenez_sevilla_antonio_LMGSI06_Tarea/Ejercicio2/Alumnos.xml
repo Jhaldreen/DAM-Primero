@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Alumnos>
+    <Alumno>
+        <alumno_no>A1248</alumno_no>
+        <apellidos>Fernandez Ruiz</apellidos>
+        <nombre>Angel</nombre>
+        <dni>78922561A</dni>
+        <fecha_matricula>2020-07-13</fecha_matricula>
+        <direccion>c/ El Pez, 12</direccion>
+        <localidad>Laredo</localidad>
+        <provincia>Cantabria</provincia>
+        <tfno>666223344</tfno>
+        <ciclo_no>C010</ciclo_no>
+    </Alumno>
+    <Alumno>
+        <alumno_no>A1344</alumno_no>
+        <apellidos>Lopez Garcia</apellidos>
+        <nombre>Eva</nombre>
+        <dni>13466544T</dni>
+        <fecha_matricula>2020-07-12</fecha_matricula>
+        <direccion>Avda. La presa, 45</direccion>
+        <localidad>Colindres</localidad>
+        <provincia>Cantabria</provincia>
+        <tfno>677898917</tfno>
+        <ciclo_no>C020</ciclo_no>
+    </Alumno>
+    <Alumno>
+        <alumno_no>A1401</alumno_no>
+        <apellidos>López Haro</apellidos>
+        <nombre>Fernando</nombre>
+        <dni>78665432D</dni>
+        <fecha_matricula>2020-07-19</fecha_matricula>
+        <direccion>Avda. Gral. Espinosa, 33</direccion>
+        <localidad>Treto</localidad>
+        <provincia>Cantabria</provincia>
+        <tfno>654323232</tfno>
+        <ciclo_no>C020</ciclo_no>
+    </Alumno>
+    <Alumno>
+        <alumno_no>A1899</alumno_no>
+        <apellidos>Muro Hoz</apellidos>
+        <nombre>Luis Ángel</nombre>
+        <dni>72314522S</dni>
+        <fecha_matricula>2020-07-12</fecha_matricula>
+        <direccion>c/ Miguel Hernandez, 15</direccion>
+        <localidad>Granada</localidad>
+        <provincia>Granada</provincia>
+        <tfno>633242526</tfno>
+        <ciclo_no>C040</ciclo_no>
+    </Alumno>
+    <Alumno>
+        <alumno_no>A2155</alumno_no>
+        <apellidos>Ruiz Ruiz</apellidos>
+        <nombre>Diego</nombre>
+        <dni>71345666B</dni>
+        <fecha_matricula>2020-07-16</fecha_matricula>
+        <direccion>c/ Argentina, 12</direccion>
+        <localidad>Santander</localidad>
+        <provincia>Cantabria</provincia>
+        <tfno>666777888</tfno>
+        <ciclo_no>C030</ciclo_no>
+    </Alumno>
+    <Alumno>
+        <alumno_no>A2222</alumno_no>
+        <apellidos>Coronas Gomez</apellidos>
+        <nombre>Rosa</nombre>
+        <dni>72133445R</dni>
+        <fecha_matricula>2020-07-11</fecha_matricula>
+        <direccion>c/ Castilla, 37</direccion>
+        <localidad>Bezana</localidad>
+        <provincia>Cantabria</provincia>
+        <tfno>659876544</tfno>
+        <ciclo_no>C030</ciclo_no>
+    </Alumno>
+</Alumnos>

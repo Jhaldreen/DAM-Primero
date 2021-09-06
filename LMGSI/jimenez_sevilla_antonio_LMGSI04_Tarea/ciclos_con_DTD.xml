@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Ciclos SYSTEM "ciclos_dtd.dtd">
+<Ciclos>
+    <Ciclo CodigoCl="CF001C" Tipo="GS">
+        <NombreCiclo>Desarrollo de Aplicaciones Web</NombreCiclo>
+        <FamProf>Informática y comunicaciones</FamProf>
+        <FechaCurric>2011-05-12</FechaCurric>
+        <CentroDistancia>IES Augusto González Linares</CentroDistancia>
+        <Modulos>
+            <Modulo CodigoMod="CM0483">
+                <NombreMod>Sistemas informáticos</NombreMod>
+                <HorasMod>231</HorasMod>
+                <HorasModSem>7</HorasModSem>
+                <Curso>1</Curso>
+            </Modulo>
+            <Modulo CodigoMod="CM0484">
+                <NombreMod>Bases de datos</NombreMod>
+                <HorasMod>198</HorasMod>
+                <HorasModSem>6</HorasModSem>
+                <Curso>1</Curso>
+            </Modulo>
+            <Modulo CodigoMod="CM0615">
+                <NombreMod>Diseño de interfaces web</NombreMod>
+                <HorasMod>95</HorasMod>
+                <HorasModSem>5</HorasModSem>
+                <Curso>2</Curso>
+            </Modulo>
+        </Modulos>
+    </Ciclo>
+    <Ciclo CodigoCl="CF002C" Tipo="GM">
+        <NombreCiclo>Preimpresión digital</NombreCiclo>
+        <FamProf>Artes gráficas</FamProf>
+        <FechaCurric>2013-08-26</FechaCurric>
+        <Modulos>
+            <Modulo CodigoMod="CM0866">
+                <NombreMod>Tratamiento de textos</NombreMod>
+                <HorasMod>231</HorasMod>
+                <HorasModSem>7</HorasModSem>
+                <Curso>1</Curso>
+            </Modulo>
+            <Modulo CodigoMod="CM0870">
+                <NombreMod>Compaginación</NombreMod>
+                <HorasMod>180</HorasMod>
+                <HorasModSem>9</HorasModSem>
+                <Curso>2</Curso>
+            </Modulo>
+        </Modulos>
+    </Ciclo>
+</Ciclos>

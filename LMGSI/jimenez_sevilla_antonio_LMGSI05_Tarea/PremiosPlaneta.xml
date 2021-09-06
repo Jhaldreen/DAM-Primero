@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Sol_Actividad2.xsl"?>
+<PremiosPlaneta>
+	<!--Obra y autor de libros ganadores del Premio Planeta del 2002 al 2020-->
+	
+	<libros>
+		<libro idlibro="L01" fecha="2002">
+			<titulo>El huerto de mi amada</titulo>
+			<genero>Comedia romántica</genero>
+			<numPaginas>286</numPaginas>
+			<autor>A01</autor> <!--Codigo del autor, hace referencia a <autor codautor="">-->
+		</libro>
+		<libro idlibro="L02" fecha="2003">
+			<titulo>El baile de la Victoria</titulo>
+			<genero>Novela Rosa</genero>
+			<numPaginas>349</numPaginas>
+			<autor>A02</autor>  
+		</libro>
+		<libro idlibro="L03" fecha="2004">
+			<titulo>Un milagro en equilibrio</titulo>
+			<genero>Ficción</genero>
+			<numPaginas>424</numPaginas>
+			<autor>A03</autor>  
+		</libro>		
+		<libro idlibro="L04" fecha="2005">
+			<titulo>Pasiones romanas</titulo>
+			<genero>Novela Rosa</genero>
+			<numPaginas>464</numPaginas>
+			<autor>A04</autor>  
+		</libro>
+		<libro idlibro="L05" fecha="2006">
+			<titulo>La fortuna de Matilda Turpin</titulo>
+			<genero>Ficción</genero>
+			<numPaginas>380</numPaginas>
+			<autor>A05</autor>  
+		</libro>
+		<libro idlibro="L06" fecha="2007">
+			<titulo>El mundo</titulo>
+			<genero>Novela autobiográfica</genero>
+			<numPaginas>240</numPaginas>
+			<autor>A06</autor>  
+		</libro>
+		<libro idlibro="L07" fecha="2008">
+			<titulo>La Hermandad de la Buena Suerte</titulo>
+			<genero>Suspense</genero>
+			<numPaginas>288</numPaginas>
+			<autor>A07</autor>  
+		</libro>
+		<libro idlibro="L08" fecha="2009">
+			<titulo>Contra el viento</titulo>
+			<genero>Ficción</genero>
+			<numPaginas>196</numPaginas>
+			<autor>A08</autor>  
+		</libro>
+		<libro idlibro="L09" fecha="2010">
+			<titulo>Riña de gatos. Madrid 1936</titulo>
+			<genero>Suspense</genero>
+			<numPaginas>432</numPaginas>
+			<autor>A09</autor>  
+		</libro>
+		<libro idlibro="L10" fecha="2011">
+			<titulo>El imperio eres tú</titulo>
+			<genero>Ficción Histórica</genero>
+			<numPaginas>546</numPaginas>
+			<autor>A10</autor>  
+		</libro>
+		<libro idlibro="L11" fecha="2012">
+			<titulo>La marca del meridiano</titulo>
+			<genero>Suspense</genero>
+			<numPaginas>400</numPaginas>
+			<autor>A11</autor>  
+		</libro>
+		<libro idlibro="L12" fecha="2013">
+			<titulo>El cielo ha vuelto</titulo>
+			<genero>Suspense</genero>
+			<numPaginas>384</numPaginas>
+			<autor>A12</autor>  
+		</libro>
+		<libro idlibro="L13" fecha="2014">
+			<titulo>Milena o el fémur más bello del mundo</titulo>
+			<genero>Suspense</genero>
+			<numPaginas>455</numPaginas>
+			<autor>A13</autor>  
+		</libro>
+		<libro idlibro="L14" fecha="2015">
+			<titulo>Hombres desnudos</titulo>
+			<genero>Ficción</genero>
+			<numPaginas>436</numPaginas>
+			<autor>A14</autor>  
+		</libro>
+		<libro idlibro="L15" fecha="2016">
+			<titulo>Todo esto te daré</titulo>
+			<genero>Suspense</genero>
+			<numPaginas>594</numPaginas>
+			<autor>A15</autor>  
+		</libro>
+		<libro idlibro="L16" fecha="2017">
+			<titulo>El fuego invisible</titulo>
+			<genero>Suspense</genero>
+			<numPaginas>480</numPaginas>
+			<autor>A16</autor>  
+		</libro>
+		<libro idlibro="L17" fecha="2018">
+			<titulo>Yo, Julia</titulo>
+			<genero>Ficción Histórica</genero>
+			<numPaginas>754</numPaginas>
+			<autor>A17</autor>  
+		</libro>
+		<libro idlibro="L18" fecha="2019">
+			<titulo>Terra Alta</titulo>
+			<genero>Suspense</genero>
+			<numPaginas>301</numPaginas>
+			<autor>A18</autor>  
+		</libro>
+		<libro idlibro="L19" fecha="2020">
+			<titulo>Aquitania</titulo>
+			<genero>Ficción Histórica</genero>
+			<numPaginas>416</numPaginas>
+			<autor>A19</autor>  
+		</libro>
+	</libros>
+	
+   <!--Autores con Premio Planeta-->
+   
+	<autores>
+		<autor codautor="A01">
+			<nombre>Alfredo Bryce</nombre>
+			<apellido>Echenique</apellido>
+			<nacimiento pais="Perú" sexo="hombre"/>
+		</autor>
+		<autor codautor="A02">
+			<nombre>Antonio</nombre>
+			<apellido>Skármeta</apellido>
+			<nacimiento pais="Chile" sexo="hombre"/>
+		</autor>
+		<autor codautor="A03">
+			<nombre>Lucía</nombre>
+			<apellido>Etxebarria</apellido>
+			<nacimiento pais="España" sexo="mujer"/>
+		</autor>
+		<autor codautor="A04">
+			<nombre>María de la Pau</nombre>
+			<apellido>Janer</apellido>
+			<nacimiento pais="España" sexo="mujer"/>
+		</autor>
+		<autor codautor="A05">
+			<nombre>Álvaro</nombre>
+			<apellido>Pombo</apellido>
+			<nacimiento pais="España" sexo="hombre"/>
+		</autor>
+		<autor codautor="A06">
+			<nombre>Juan José</nombre>
+			<apellido>Millás</apellido>
+			<nacimiento pais="España" sexo="hombre"/>
+		</autor>
+		<autor codautor="A07">
+			<nombre>Fernando</nombre>
+			<apellido>Savater</apellido>
+			<nacimiento pais="España" sexo="hombre"/>
+		</autor>
+		<autor codautor="A08">
+			<nombre>Ángeles</nombre>
+			<apellido>Caso</apellido>
+			<nacimiento pais="España" sexo="mujer"/>
+		</autor>
+		<autor codautor="A09">
+			<nombre>Eduardo</nombre>
+			<apellido>Mendoza</apellido>
+			<nacimiento pais="España" sexo="hombre"/>
+		</autor>
+		<autor codautor="A10">
+			<nombre>Javier</nombre>
+			<apellido>Moro</apellido>
+			<nacimiento pais="España" sexo="hombre"/>
+		</autor>
+		<autor codautor="A11">
+			<nombre>Lorenzo</nombre>
+			<apellido>Silva</apellido>
+			<nacimiento pais="España" sexo="hombre"/>
+		</autor>
+		<autor codautor="A12">
+			<nombre>Clara</nombre>
+			<apellido>Sánchez</apellido>
+			<nacimiento pais="España" sexo="mujer"/>
+		</autor>
+		<autor codautor="A13">
+			<nombre>Jorge</nombre>
+			<apellido>Zepeda</apellido>
+			<nacimiento pais="México" sexo="hombre"/>
+		</autor>
+		<autor codautor="A14">
+			<nombre>Alicia</nombre>
+			<apellido>Giménez</apellido>
+			<nacimiento pais="España" sexo="mujer"/>
+		</autor>
+		<autor codautor="A15">
+			<nombre>Dolores</nombre>
+			<apellido>Redondo</apellido>
+			<nacimiento pais="España" sexo="mujer"/>
+		</autor>
+		<autor codautor="A16">
+			<nombre>Javier</nombre>
+			<apellido>Sierra</apellido>
+			<nacimiento pais="España" sexo="hombre"/>
+		</autor>
+		<autor codautor="A17">
+			<nombre>Santiago</nombre>
+			<apellido>Posteguillo</apellido>
+			<nacimiento pais="España" sexo="hombre"/>
+		</autor>
+		<autor codautor="A18">
+			<nombre>Javier</nombre>
+			<apellido>Cercas</apellido>
+			<nacimiento pais="España" sexo="hombre"/>
+		</autor>
+		<autor codautor="A19">
+			<nombre>Eva</nombre>
+			<apellido>García</apellido>
+			<nacimiento pais="España" sexo="mujer"/>
+		</autor>
+   </autores>
+</PremiosPlaneta>

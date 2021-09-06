@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    <!-- Definicion del vocabulario -->
+    <xs:element name="Centros">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name = "Ciclos" type= "tipoCiclos"></xs:element>
+                <xs:element name = "Alumnos" type= "tipoAlumnos"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+        
+        <!-- Tabla ciclos-->
+        <xs:complexType name="tipoCiclos">
+            <xs:sequence>
+                <xs:element name = "Ciclo" type="tipoCiclo" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    
+        <!-- Definicion de cada fila de la tabla ciclos-->
+        <xs:complexType name="tipoCiclo">
+            <xs:sequence>
+                <xs:element name="nombre" type="tipoNombreC"/>
+                <xs:element name="grado" type="tipoGrado"/>
+            </xs:sequence>
+            <xs:attribute name="ciclo_no" type="tipoCiclo_no" use="required"/>
+        </xs:complexType>
+    
+        <!-- Restricción para el elemento "nombre" del ciclo -->
+         <xs:simpleType name="tipoNombreC">
+             <xs:restriction base = "xs:string">
+                 <xs:maxLength value="50"/>
+             </xs:restriction>
+         </xs:simpleType>
+        
+        <!-- Restricción para el elemento "grado" -->
+        <xs:simpleType name="tipoGrado">
+            <xs:restriction base = "xs:string">
+                <xs:maxLength value="3"/>
+            </xs:restriction>
+        </xs:simpleType>
+    
+        <!-- Restricción para el atributo "tipoCiclo_no" -->
+        <xs:simpleType name="tipoCiclo_no">
+            <xs:restriction base = "xs:ID">
+                <xs:maxLength value="4"/>
+            </xs:restriction>
+        </xs:simpleType>
+    
+        <!-- Tabla alumnos-->
+        <xs:complexType name="tipoAlumnos">
+            <xs:sequence>
+                <xs:element name="Alumno" type="tipoAlumno" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    
+        <!-- Definicion de cada fila de la tabla alumnos-->
+        <xs:complexType name="tipoAlumno">
+            <xs:sequence>
+                <xs:element name= "apellidos" type = "tipoApellidos"/>
+                <xs:element name= "nombre" type = "tipoDato"/>
+                <xs:element name= "dni" type = "tipoDNI" minOccurs="1"/>
+                <xs:element name= "fecha_matricula" type = "xs:date"/>
+                <xs:element name= "direccion" type = "tipoDato"/>
+                <xs:element name= "localidad" type = "tipoDato"/>
+                <xs:element name= "provincia" type = "tipoDato"/>
+                <xs:element name= "tfno" type = "tipoTelefono"/>
+            </xs:sequence>
+            <xs:attribute name="alumno_no" type="tipoAlumno_no" use="required"/>
+            <xs:attribute name="ciclo_no" type="xs:IDREF" use="required"/>
+        </xs:complexType>
+    
+         <!-- Restricción para el elemento "apellidos" -->
+         <xs:simpleType name="tipoApellidos">
+             <xs:restriction base = "xs:string">
+                 <xs:maxLength value="30"/>
+             </xs:restriction>
+         </xs:simpleType>
+    
+        <!-- Restricción para los elementos "nombre" / "direccion" / "localidad" / "provincia" -->
+        <xs:simpleType name="tipoDato">
+            <xs:restriction base = "xs:string">
+                <xs:maxLength value="30"/>
+            </xs:restriction>
+        </xs:simpleType>
+    
+        <!-- Restricción para el elemento "dni" -->
+        <xs:simpleType name="tipoDNI">
+            <xs:restriction base = "xs:string">
+                <xs:minLength value="1"/>
+                <xs:maxLength value="9"/>
+            </xs:restriction>
+        </xs:simpleType>
+    
+         <!-- Restricción para el elemento "telefono" -->
+        <xs:simpleType name="tipoTelefono">
+            <xs:restriction base = "xs:string">
+                <xs:maxLength value="9"/>
+            </xs:restriction>
+        </xs:simpleType>
+    
+        <!-- Restricción para el atributo "tipoCiclo_no" -->
+        <xs:simpleType name="tipoAlumno_no">
+            <xs:restriction base = "xs:ID">
+                <xs:maxLength value="5"/>
+            </xs:restriction>
+        </xs:simpleType>
+        
+</xs:schema>

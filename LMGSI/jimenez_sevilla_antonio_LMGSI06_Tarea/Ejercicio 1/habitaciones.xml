@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<habitaciones>
+        <habitacion id_h="A101">
+            <id_cliente>c01</id_cliente>
+            <num_ocupantes>2</num_ocupantes>
+            <tipo>doble</tipo>  
+			<fecha_e>27/04/2021</fecha_e>
+			<fecha_s>04/05/2021</fecha_s>
+        </habitacion>
+		<habitacion id_h="A203">
+            <id_cliente>c06</id_cliente>
+            <num_ocupantes>3</num_ocupantes>
+            <tipo>suite</tipo>  
+			<fecha_e>01/05/2021</fecha_e>
+			<fecha_s>06/05/2021</fecha_s>
+        </habitacion>
+        <habitacion id_h="B102">
+            <id_cliente>c04</id_cliente>
+            <num_ocupantes>2</num_ocupantes>
+            <tipo>doble</tipo>  
+			<fecha_e>29/04/2021</fecha_e>
+			<fecha_s>04/05/2021</fecha_s>
+        </habitacion>
+		<habitacion id_h="A423">
+            <id_cliente>c03</id_cliente>
+            <num_ocupantes>1</num_ocupantes>
+            <tipo>doble</tipo>  
+			<fecha_e>30/04/2021</fecha_e>
+			<fecha_s>05/05/2021</fecha_s>
+        </habitacion>
+		<habitacion id_h="A123">
+            <id_cliente>c05</id_cliente>
+            <num_ocupantes>2</num_ocupantes>
+            <tipo>doble</tipo>  
+			<fecha_e>29/04/2021</fecha_e>
+			<fecha_s>05/05/2021</fecha_s>
+        </habitacion>
+		<habitacion id_h="B106">
+            <id_cliente>c08</id_cliente>
+            <num_ocupantes>4</num_ocupantes>
+            <tipo>suite</tipo>  
+			<fecha_e>01/05/2021</fecha_e>
+			<fecha_s>08/05/2021</fecha_s>
+        </habitacion>
+		<habitacion id_h="A221">
+            <id_cliente>c10</id_cliente>
+            <num_ocupantes>2</num_ocupantes>
+            <tipo>doble</tipo>  
+			<fecha_e>01/05/2021</fecha_e>
+			<fecha_s>06/05/2021</fecha_s>
+        </habitacion>
+</habitaciones>

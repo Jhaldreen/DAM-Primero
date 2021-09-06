@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+        <style type="text/css"> .clase_morada{color: rgb(205, 164, 243);} .fondomorado{background-color: rgb(205, 164, 243);} .clase_blanca {color: white;}
+            body {font-size: 150%;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; background-color: white; color:black font}
+            h1 {font-size: 300%; text-align: center; text-decoration-line: underline; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+            .imagen{position:absolute; right: 1px;top:218px;}
+            </style>
+        <header>
+            <h1 class="clase_morada">Aqui encontraras los tipos de mascarillas</h1>
+        </header>
+        <section >
+            <table border="2px" class="fondomorado" >
+                <thead >
+                    <tr> <th></th><th>A</th><th>B</th><th>C</th></tr>
+                </thead>
+                <tfoot align="center"><tr> <td>GRANDE</td> <td>15cm</td> <td>14cm</td> <td>7cm</td></tr>  </tfoot>
+                <tbody align="center">
+                        <tr><td>PEQUEÑA</td> <td>11cm</td> <td>11cm</td> <td>5,5cm</td></tr>
+                        <tr><td>MEDIANA</td> <td>13cm</td> <td>13cm</td> <td>6,5cm</td></tr>
+                </tbody>
+        </section>                              
+            </table>
+        <article class="fondomorado">
+            <h3>Lista de Colores disponibles</h3>
+            <ol>
+                <li>Azul</li>
+                <li>Blanco</li>
+                <li>Negro</li>
+            </ol>
+        </article>
+            <div>
+            <img class="imagen"src="imagenes/mascarillas.jpg" alt="Mascarilla">  
+           </div>
+            <br><br><br><br> 
+        <section class="fondomorado">
+                <form  action="mailto:info@covid_agl_lmsgi.com." method="post">
+            <fieldset >
+            <legend><h1>Formulario</h1></legend> 
+            <p>Nombre Apellidos <input type="text" name="nombre apellidos" required></p>
+            <p>Correo: <input type="email" name="correo" size="40"></p>
+            <p>Sexo:
+              <input type="radio"> Hombre
+              <input type="radio"> Mujer
+              <input type="radio"> Niño
+            </p> 
+            <p>Selecciona el tipo de mascarilla
+                <select name="Color">
+                    <option >Blanca</option>
+                    <option >Negra</option>
+                    <option >Azul</option>
+                </select>
+            <p>como nos has encontrado, marca una o varias opciones <br>  
+                <input type="checkbox" name="internet">Internet
+                <br>
+                <input type="checkbox" name="Radio">Radio
+                <br> 
+                <input type="checkbox" name="Papel">Folletos
+            </p>
+            <p>Escriba si necesita algo más</p>
+            <input type="text" name="texto" placeholder="Escriba algo">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            </fieldset>
+                 </form>
+        </section>
+   
+    
+</body>
+</html>

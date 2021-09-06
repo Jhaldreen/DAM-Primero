@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+		<cliente>
+			<id_cliente>c01</id_cliente>
+            <nombre>Juan</nombre>
+            <apellidos>Alonso Fernandez</apellidos>
+            <dni>11223344A</dni>
+			<pasaporte></pasaporte>
+			<direccion>Avd.Los Ciruelos, 22</direccion>
+			<localidad>Murcia</localidad>
+            <nacionalidad>España</nacionalidad>
+            <telefono>666554433</telefono>	
+			<habitual>Si</habitual>
+		</cliente>
+		<cliente>
+			<id_cliente>c02</id_cliente>
+            <nombre>Marta</nombre>
+            <apellidos>Abascal Ruiz</apellidos>
+            <dni>88333444X</dni>
+			<pasaporte></pasaporte>
+			<direccion>C/ La Alberca, 44</direccion>
+			<localidad>Valencia</localidad>
+            <nacionalidad>España</nacionalidad>
+            <telefono>651666222</telefono>
+			<habitual>No</habitual>
+		</cliente>
+		<cliente>
+			<id_cliente>c03</id_cliente>
+            <nombre>Fernando</nombre>
+            <apellidos>Perez Rojo</apellidos>
+            <dni>71777888Z</dni>
+			<pasaporte></pasaporte>
+			<direccion>C/ Panama, 23</direccion>
+			<localidad>Tudela</localidad>
+            <nacionalidad>España</nacionalidad>
+            <telefono>618999333</telefono>
+			<habitual>Si</habitual>
+		</cliente>
+		<cliente>
+			<id_cliente>c04</id_cliente>
+            <nombre>Giselle</nombre>
+            <apellidos>Penz Holbein</apellidos>
+            <dni></dni>
+			<pasaporte>DX33T22B65</pasaporte>
+			<direccion>C/ Munich, 44</direccion>
+			<localidad>Berlin</localidad>
+            <nacionalidad>Alemania</nacionalidad>
+            <telefono>+49302556677</telefono>
+			<habitual>Si</habitual>
+		</cliente>
+		<cliente>
+			<id_cliente>c05</id_cliente>
+            <nombre>Pietro</nombre>
+            <apellidos>Bufon Marcos</apellidos>
+            <dni></dni>
+			<pasaporte>YX2345675</pasaporte>
+			<direccion>Via Il Duomo, 44</direccion>
+			<localidad>Florencia</localidad>
+            <nacionalidad>Italia</nacionalidad>
+            <telefono>+39055123456</telefono>
+			<habitual>Si</habitual>
+		</cliente>
+		<cliente>
+			<id_cliente>c06</id_cliente>
+            <nombre>Morgan</nombre>
+            <apellidos>Waas Muller</apellidos>
+            <dni></dni>
+			<pasaporte>DP22C67L89</pasaporte>
+			<direccion>St. Franckfurt, 21</direccion>
+			<localidad>Munich</localidad>
+            <nacionalidad>Alemania</nacionalidad>
+            <telefono>+49201675432</telefono>
+			<habitual>No</habitual>
+		</cliente>
+		<cliente>
+			<id_cliente>c07</id_cliente>
+            <nombre>Henry</nombre>
+            <apellidos>Reber Aigner</apellidos>
+            <dni></dni>
+			<pasaporte>DL45K87S42</pasaporte>
+			<direccion>St. Dresde, 12</direccion>
+			<localidad>Frankfurt</localidad>
+            <nacionalidad>Alemania</nacionalidad>
+            <telefono>+49876332221</telefono>
+			<habitual>No</habitual>
+		</cliente>
+        <cliente>
+			<id_cliente>c08</id_cliente>
+            <nombre>Jenell</nombre>
+            <apellidos>Wagner Becher</apellidos>
+            <dni></dni>
+			<pasaporte>DR56T33Y11</pasaporte>
+			<direccion>St. España, 11</direccion>
+			<localidad>Colonia</localidad>
+            <nacionalidad>Alemania</nacionalidad>
+            <telefono>+49234565432</telefono>
+			<habitual>No</habitual>
+		</cliente>
+        <cliente>
+			<id_cliente>c09</id_cliente>
+            <nombre>Martina</nombre>
+            <apellidos>Caso Laso</apellidos>
+            <dni>76554322X</dni>
+			<pasaporte></pasaporte>
+			<direccion>Avda. Los Cerezos, 123</direccion>
+			<localidad>Caceres</localidad>
+            <nacionalidad>España</nacionalidad>
+            <telefono>698765432</telefono>
+			<habitual>Si</habitual>
+        </cliente>
+        <cliente>
+			<id_cliente>c10</id_cliente>
+            <nombre>Carlos</nombre>
+            <apellidos>Soria Mendez</apellidos>
+            <dni>13755321S</dni>
+			<pasaporte></pasaporte>
+			<direccion>Avda. El Faro, 45</direccion>
+			<localidad>Santander</localidad>
+            <nacionalidad>España</nacionalidad>
+            <telefono>620987656</telefono>
+			<habitual>Si</habitual>
+        </cliente>
+        <cliente>
+			<id_cliente>c11</id_cliente>
+            <nombre>Morgan</nombre>
+            <apellidos>Wallace Russel</apellidos>
+            <dni></dni>
+			<pasaporte>DA45B43C41</pasaporte>
+			<direccion>St. Paris, 66</direccion>
+			<localidad>Munich</localidad>
+            <nacionalidad>Alemania</nacionalidad>
+            <telefono>+49875432356</telefono>
+			<habitual>Si</habitual>
+		</cliente>
+</clientes>

@@ -1,0 +1,57 @@
+body,
+html{
+    font-family: Verdana;
+    background: blue;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    background: white;
+}
+
+h1{
+
+    color: blue;
+    text-align: center;
+}
+ul{
+    list-style-position: inside;
+}
+li{
+    text-align: center;
+}
+
+table{
+    background-color: white;
+    border: 5px;
+    border-style: solid;
+    border-color: blue;
+    margin: auto;
+    padding: 5px;
+    width: 70%;
+}
+
+th{
+    color: red;
+}
+    
+
+td{
+    border: 2px;
+    text-align: center;
+    border-style: solid;
+    border-color: blue;
+    font-family: Verdana;
+    font-size: small;
+    padding: 10px 30px 10px 30px;
+
+
+}
+

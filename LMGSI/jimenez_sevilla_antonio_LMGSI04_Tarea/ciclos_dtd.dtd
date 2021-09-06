@@ -1,0 +1,23 @@
+<!ELEMENT Ciclos (Ciclo+)>
+	<!-- Se describe el elemento Ciclo -->
+	<!ELEMENT Ciclo (NombreCiclo,FamProf,FechaCurric,CentroDistancia?,Modulos)>
+		<!-- Se describen los atributos del elemento Ciclo -->
+		<!ATTLIST Ciclo CodigoCl ID #REQUIRED>        <!-- Atributo identificador -->
+		<!ATTLIST Ciclo Tipo (GS|GM|FPB) #REQUIRED>
+		<!-- Se describen los elementos hijos del elemento Ciclo -->
+		<!ELEMENT NombreCiclo (#PCDATA)>
+		<!ELEMENT FamProf (#PCDATA)>
+		<!ELEMENT FechaCurric (#PCDATA)>
+		<!ELEMENT CentroDistancia (#PCDATA)>
+		<!ELEMENT Modulos (Modulo+)> 
+			<!-- Se describe el elemento Modulo -->
+			<!ELEMENT Modulo (NombreMod,HorasMod,HorasModSem,Curso)>
+				<!-- Se describe el atributo del elemento Modulo -->
+				<!ATTLIST Modulo CodigoMod ID #REQUIRED>   <!-- Atributo identificador -->
+				<!-- Se describen los elementos hijos del elemento Modulo -->
+				<!ELEMENT NombreMod (#PCDATA)>
+				<!ELEMENT HorasMod (#PCDATA)>
+				<!ELEMENT HorasModSem (#PCDATA)>
+				<!ELEMENT Curso (#PCDATA)>
+
+

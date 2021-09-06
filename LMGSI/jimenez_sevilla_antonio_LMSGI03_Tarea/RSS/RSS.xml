@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+	<title>Canal de noticias para IES Linares</title>
+	<description>Canal RSS de suscripcion de noticias</description>
+	<link>https://www.educantabria.es/</link>
+	<language>es</language>
+	
+<item>
+	<title>Decapitated</title>
+	<link>http://localhost/RSS/actualidad/noticias.html</link>
+		<description>Decapitated comienza a grabar</description>
+
+</item>
+
+<item>
+	<title>IES Linares Noticias</title>
+	<link>https://www.educantabria.es/</link>
+		<description>Todas las noticias de la educacion en Cantabria</description>
+
+</item>
+
+</channel>
+
+</rss>
